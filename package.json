@@ -1,0 +1,27 @@
+{
+  "name": "gulp-blueprint-sass",
+  "version": "0.0.1",
+  "description": "Gulp helper to compile SASS stylesheets to minified CSS",
+  "main": "gulp-blueprint-sass.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marc1404/gulp-blueprint-sass.git"
+  },
+  "keywords": [
+    "gulp",
+    "blueprint",
+    "sass",
+    "css",
+    "minify",
+    "scss"
+  ],
+  "author": "Marc Vornetran",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marc1404/gulp-blueprint-sass/issues"
+  },
+  "homepage": "https://github.com/marc1404/gulp-blueprint-sass#readme"
+}
