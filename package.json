@@ -23,5 +23,11 @@
   "bugs": {
     "url": "https://github.com/marc1404/gulp-blueprint-sass/issues"
   },
-  "homepage": "https://github.com/marc1404/gulp-blueprint-sass#readme"
+  "homepage": "https://github.com/marc1404/gulp-blueprint-sass#readme",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.5.2"
+  }
 }
