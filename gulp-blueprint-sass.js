@@ -23,7 +23,7 @@ function defaultOptions(options){
 }
 
 function registerTask(options){
-  gulp.task(options.taskName, options.taskDependencies, function(){
+  gulp.task(options.name, options.dependencies, function(){
     return gulp.src(options.src)
       .pipe(rename(options.rename))
       .pipe(sourcemaps.init())
