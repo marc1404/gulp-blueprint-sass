@@ -16,6 +16,7 @@ $ npm install --save-dev gulp-blueprint-sass
   
 ## Description
 This package can be used to setup a [gulp](https://www.npmjs.com/package/gulp) task to compile and minify [SASS](http://sass-lang.com/) stylesheets.
+
 Using:
 - [gulp-rename](https://www.npmjs.com/package/gulp-rename)
 - [gulp-sourcemaps](https://www.npmjs.com/package/gulp-sourcemaps)
@@ -34,7 +35,7 @@ You can pass an options object.
 - ```name``` (*string*, default: ```'sass''```): The gulp task name
 - ```dependencies``` (*string|array*, default: ```['clean']```): The gulp task dependencies
 - ```src``` (*string|array*, default: ```'assets/sass/*.scss'```): SASS input file
-- ```rename``` (*object*, default: ```{ extname: '.min.css' }```): Options object which will be passed to [gulp-rename](https://www.npmjs.com/package/gulp-rename)
+- ```rename``` (*object*, default: ```{ extname: '.min.css' }```): Options for [gulp-rename](https://www.npmjs.com/package/gulp-rename)
 - ```dest``` (*string*, default: ```'public'```): Destination of the compiled and minified CSS stylesheet.
 
 ## Test
