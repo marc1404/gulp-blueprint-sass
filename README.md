@@ -32,7 +32,7 @@ sass(); // gulp task registered with default options
   
 ## Options
 You can pass an options object.
-- ```name``` (*string*, default: ```'sass'```): The gulp task name
+- ```task``` (*string*, default: ```'sass'```): The gulp task name
 - ```dependencies``` (*string|array*, default: ```['clean']```): The gulp task dependencies
 - ```src``` (*string|array*, default: ```'assets/sass/*.scss'```): SASS input file
 - ```rename``` (*object*, default: ```{ extname: '.min.css' }```): Options for [gulp-rename](https://www.npmjs.com/package/gulp-rename)
