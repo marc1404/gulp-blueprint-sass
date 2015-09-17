@@ -1,6 +1,6 @@
 {
   "name": "gulp-blueprint-sass",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Gulp helper to compile SASS stylesheets to minified CSS",
   "main": "lib/gulp-blueprint-sass.js",
   "scripts": {
@@ -32,6 +32,8 @@
   },
   "devDependencies": {
     "istanbul": "^0.3.20",
-    "mocha": "^2.3.2"
+    "mocha": "^2.3.2",
+    "should": "^7.1.0",
+    "sinon": "^1.16.1"
   }
 }

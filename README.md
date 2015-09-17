@@ -32,6 +32,7 @@ sass(); // gulp task registered with default options
   
 ## Options
 You can pass an options object.
+- ```gulp``` (*object*, default: ```require('gulp')```): Provide a custom gulp instance
 - ```task``` (*string*, default: ```'sass'```): The gulp task name
 - ```dependencies``` (*string|array*, default: ```['clean']```): The gulp task dependencies
 - ```src``` (*string|array*, default: ```'assets/sass/*.scss'```): SASS input file
